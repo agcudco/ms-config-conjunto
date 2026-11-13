@@ -1,11 +1,12 @@
-package ec.edu.espe.habitacional.entity;
+package ec.edu.espe.conjunto.entity;
 
+import ec.edu.espe.conjunto.enums.TipoOcupacion;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
-import ec.edu.espe.habitacional.enums.TipoOcupacion;
+import ec.edu.espe.conjunto.enums.TipoOcupacion;
 import java.time.LocalDate;
 import java.util.UUID;
 

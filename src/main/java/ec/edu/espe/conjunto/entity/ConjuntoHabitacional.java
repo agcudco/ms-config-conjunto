@@ -1,9 +1,13 @@
 package ec.edu.espe.conjunto.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import ec.edu.espe.conjunto.enums.CategoriaProyecto;
+import ec.edu.espe.conjunto.enums.TipoProyecto;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter

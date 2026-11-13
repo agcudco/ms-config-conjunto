@@ -1,4 +1,4 @@
-package ec.edu.espe.habitacional.entity;
+package ec.edu.espe.conjunto.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

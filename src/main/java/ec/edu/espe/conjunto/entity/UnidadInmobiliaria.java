@@ -1,12 +1,12 @@
 package ec.edu.espe.conjunto.entity;
 
+import ec.edu.espe.conjunto.enums.EstadoOcupacion;
+import ec.edu.espe.conjunto.enums.TipoUnidad;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
-import ec.edu.espe.habitacional.enums.TipoUnidad;
-import ec.edu.espe.habitacional.enums.EstadoOcupacion;
 import java.math.BigDecimal;
 
 @Getter
